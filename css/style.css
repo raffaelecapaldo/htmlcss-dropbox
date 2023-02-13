@@ -31,14 +31,16 @@ footer {
     color:white;
 }
 
-nav a {
+header a {
     text-decoration: none;
     color:var(--primarydark)
 }
-
-/* .debug {
+img {
+    width: 100%;
+}
+.debug {
     border: 2px solid red;
-} */
+}
 
 /* CONTAINERS */
 
@@ -71,6 +73,7 @@ header nav {
 .hero {
     margin-top:75px;
     background-color: var(--bg-lightblue);
+    padding-top:100px;
 }
 
 .leftnav, .rightnav {
@@ -82,6 +85,8 @@ header nav {
     gap:10px;
     margin-left:20px;
 }
+
+
 
 /* UTILITY */
 
