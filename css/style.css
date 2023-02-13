@@ -17,4 +17,30 @@
 --logo-red: #FF1C1C;
 --logo-darkblue: #0D2481;
 --logo-yellow: #FFD830;
+--logo-grey: #F5F5F5;
+
+}
+
+.debug {
+    border: 2px solid red;
+}
+
+/* CONTAINERS */
+
+.container {
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.small-container {
+    max-width: 1000px;
+    margin:0 auto;
+}
+
+/* HEADER */
+
+header nav {
+    position:fixed;
+    width: 100%;
+    padding-bottom:50px;
 }
