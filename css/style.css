@@ -230,7 +230,10 @@ header nav {
     padding-bottom:20px;
 }
 
-
+.partnerinfo {
+    width: 65%;
+    margin-left:30px;
+}
 /* UTILITY */
 
 .mbottom30 {
@@ -278,4 +281,8 @@ header nav {
 
 .pb200 {
     padding-bottom:200px;
+}
+
+.gap20 {
+    gap:20px;
 }
