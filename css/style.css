@@ -30,9 +30,10 @@ footer {
     padding-top:100px;
     color:white;
 }
-
-header a {
+a {
     text-decoration: none;
+}
+header a {
     color:var(--primarydark)
 }
 img {
@@ -233,6 +234,20 @@ header nav {
 .partnerinfo {
     width: 65%;
     margin-left:30px;
+}
+
+.buttonpartner {
+    border:1px solid black;
+    padding:10px;
+    width: 150px;
+    color:black;
+}
+
+/* OPERATIONS CARDS */
+
+.ocard {
+    width: calc(100% / 3);
+    padding-left:40px;
 }
 /* UTILITY */
 
