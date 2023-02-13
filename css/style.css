@@ -209,6 +209,25 @@ header nav {
 
 .contactenterprise {
     width:30%;
+    margin-top:10px;
+}
+
+.contactenterprise .button {
+    padding:8px 30px 8px 30px;
+}
+
+.enteprise {
+    padding-top: 20px;
+    margin-left:20px;
+}
+
+.infoenterprise span {
+    margin:16px 0 40px 0;
+    display:block;
+}
+
+.infoenterprise {
+    padding-bottom:20px;
 }
 
 
