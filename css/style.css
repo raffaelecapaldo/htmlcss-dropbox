@@ -3,3 +3,18 @@
     padding:0;
     box-sizing: border-box;
 }
+
+:root {
+
+    /* Color styles */
+--primarydark: #000000;
+--primarylight: #FFFFFF;
+--bg-lightblue: #B4D0E7;
+--bt-blue: #0061FF;
+--logo-lightgreen: #A2D39B;
+--logo-brown: #61082B;
+--logo-ice: #0093CE;
+--logo-red: #FF1C1C;
+--logo-darkblue: #0D2481;
+--logo-yellow: #FFD830;
+}
