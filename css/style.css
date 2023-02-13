@@ -31,9 +31,14 @@ footer {
     color:white;
 }
 
-.debug {
-    border: 2px solid red;
+nav a {
+    text-decoration: none;
+    color:var(--primarydark)
 }
+
+/* .debug {
+    border: 2px solid red;
+} */
 
 /* CONTAINERS */
 
@@ -68,6 +73,16 @@ header nav {
     background-color: var(--bg-lightblue);
 }
 
+.leftnav, .rightnav {
+    gap:30px;
+    padding:10px;
+}
+
+.loginsection {
+    gap:10px;
+    margin-left:20px;
+}
+
 /* UTILITY */
 
 .bg-lightblue {
@@ -93,10 +108,8 @@ header nav {
 }
 
 
-.logo {
-    align-self:flex-end;
-}
-
-.leftnav {
-    gap:20px;
+.button {
+    background-color: var(--bt-blue);
+    padding:5px 15px 5px 15px;
+    color:var(--primarylight);
 }
