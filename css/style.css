@@ -38,7 +38,7 @@ header a {
 img {
     width: 100%;
 }
-.debug {
+.dbug {
     border: 2px solid red;
 }
 
@@ -177,6 +177,12 @@ header nav {
     margin:0 auto;
 }
 
+.bordercard {
+    border:1px solid #d0d0d3;
+    padding-bottom:200px;
+
+}
+
 .card {
     width: calc(100% / 3 - 40px);
     margin-right:40px;
@@ -189,8 +195,9 @@ header nav {
 }
 
 .target {
-    margin:10px;
     text-align: center;
+    border-bottom:1px solid #d0d0d3;
+    padding:5px;
 }
 
 .cflex {
@@ -203,6 +210,10 @@ header nav {
 
 
 /* UTILITY */
+
+.mbottom30 {
+    margin-bottom:30px;
+}
 
 .bg-lightblue {
     background-color: var(--bg-lightblue);
@@ -237,4 +248,9 @@ header nav {
     color:var(--primarylight);
 }
 
+.linedivider {
+    width: 50px;
+    background-color: #d0d0d3;
+    height: 1px;
+}
 
