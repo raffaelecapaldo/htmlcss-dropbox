@@ -57,12 +57,14 @@ header nav {
     top:0;
     left:0;
     width: 100%;
-    padding-bottom:50px;
     background-color: var(--primarylight);
+    height:75px;
+    padding:10px;
+
 }
 
 .hero {
-    margin-top:70px;
+    margin-top:75px;
     background-color: var(--bg-lightblue);
 }
 
@@ -74,4 +76,27 @@ header nav {
 
 .m100 {
     margin-top: 100px;
+}
+
+.dflex {
+    display:flex;
+    flex-flow:wrap;
+
+}
+
+.spbw {
+    justify-content: space-between;
+}
+
+.center {
+    align-items:center;
+}
+
+
+.logo {
+    align-self:flex-end;
+}
+
+.leftnav {
+    gap:20px;
 }
