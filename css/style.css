@@ -21,6 +21,9 @@
 
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 
 footer {
     background-color: var(--primarydark);
