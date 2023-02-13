@@ -73,7 +73,11 @@ header nav {
 .hero {
     margin-top:75px;
     background-color: var(--bg-lightblue);
-    padding-top:100px;
+    padding-top:80px;
+}
+
+.hero h1 {
+    font-size:5rem;
 }
 
 .leftnav, .rightnav {
@@ -84,6 +88,18 @@ header nav {
 .loginsection {
     gap:10px;
     margin-left:20px;
+}
+
+.leftherocontent {
+    width:60%;
+}
+
+.herocontent {
+    padding-top:70px;
+}
+
+.loginhero {
+    margin:20px 0px 20px 0px;
 }
 
 
@@ -110,6 +126,10 @@ header nav {
 
 .center {
     align-items:center;
+}
+
+.nowrap {
+    flex-wrap: nowrap;
 }
 
 
