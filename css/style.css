@@ -21,9 +21,6 @@
 
 }
 
-header {
-    background-color: var(--bg-lightblue);
-}
 
 footer {
     background-color: var(--primarydark);
@@ -46,6 +43,7 @@ footer {
 .small-container {
     max-width: 1000px;
     margin:0 auto;
+
 }
 
 /* HEADER */
@@ -63,4 +61,14 @@ header nav {
 .hero {
     margin-top:70px;
     background-color: var(--bg-lightblue);
+}
+
+/* UTILITY */
+
+.bg-lightblue {
+    background-color: var(--bg-lightblue);
+}
+
+.m100 {
+    margin-top: 100px;
 }
