@@ -38,7 +38,7 @@ header a {
 img {
     width: 100%;
 }
-.dbug {
+.deug {
     border: 2px solid red;
 }
 
@@ -179,7 +179,7 @@ header nav {
 
 .bordercard {
     border:1px solid #d0d0d3;
-    padding-bottom:200px;
+    margin-bottom:50px;
 
 }
 
@@ -207,6 +207,9 @@ header nav {
     margin-top:20px;
 }
 
+.contactenterprise {
+    width:30%;
+}
 
 
 /* UTILITY */
@@ -254,3 +257,6 @@ header nav {
     height: 1px;
 }
 
+.pb200 {
+    padding-bottom:200px;
+}
