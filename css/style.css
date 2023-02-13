@@ -301,3 +301,7 @@ header nav {
 .gap20 {
     gap:20px;
 }
+
+.bigtitle {
+    font-size:2.5rem;
+}
