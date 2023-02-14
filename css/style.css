@@ -33,6 +33,10 @@ footer {
 a {
     text-decoration: none;
 }
+
+li {
+    list-style:none;
+}
 header a {
     color:var(--primarydark)
 }
@@ -176,6 +180,7 @@ header nav {
 .contentcard {
     width: 80%;
     margin:0 auto;
+    padding-bottom:100px;
 }
 
 .bordercard {
@@ -187,8 +192,11 @@ header nav {
 .card {
     width: calc(100% / 3 - 40px);
     margin-right:40px;
-}
 
+}
+.card li {
+    font-size:0.9rem;
+}
 .card .cardtrial {
     padding:13px;
     margin:30px 0 15px 0;
@@ -201,12 +209,66 @@ header nav {
     padding:5px;
 }
 
+.price {
+    font-size:0.9rem;
+    font-weight: bold;
+}
+
+.period {
+    color:#777776;
+}
+
 .cflex {
     display:flex;
     flex-flow:column nowrap;
     gap:10px;
     margin-top:20px;
 }
+
+/* ICONS MAIN CARDS */
+.icon::before {
+    font-weight:900;
+    font-family:"Font Awesome 6 Free";
+    padding-right:10px;
+    padding-top:4px;
+}
+
+.icon {
+    display:flex;
+}
+
+.userico::before {
+    content:"\f007";
+}
+
+.folderico::before {
+    content:"\f07b"
+}
+
+.shareico::before {
+    content:"\f1e0"
+}
+
+.teamico::before {
+    content:"\e533"
+}
+
+.checkmarkico::before {
+    content:"\f00c";
+    padding-right:3px;
+    color:#0062ff;
+}
+
+.target i {
+    padding-right:10px;
+}
+
+.iconflex {
+    display:flex;
+    flex-flow:column;
+    gap:10px;
+}
+
 
 /* MAIN ENTERPRISE CARD */
 .contactenterprise {
@@ -296,9 +358,6 @@ header nav {
     height: 1px;
 }
 
-.pb200 {
-    padding-bottom:200px;
-}
 
 .gap20 {
     gap:20px;
