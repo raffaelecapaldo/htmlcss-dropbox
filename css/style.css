@@ -454,7 +454,6 @@ header nav {
     display:flex;
     flex-flow:row wrap;
     justify-content: space-between;
-    padding-bottom:150px;
 }
 
 .footernav h3 {
@@ -465,6 +464,11 @@ header nav {
     padding-bottom:10px;
     display: block;
     color:white;
+}
+
+.languageselect {
+    color:#979ea0;
+    font-size: 1.2rem;
 }
 
 
@@ -561,4 +565,25 @@ header nav {
 
 .arrowflex i {
     margin-right:35px;
+}
+
+.mtb100 {
+    margin:100px 0 100px 0;
+}
+
+option {
+    background-color:black;
+    border:none;
+    color:#979ea0;
+    appearance:none;
+}
+
+select{
+    appearance: none;
+    background-color: black;
+    color:#979ea0;
+}
+
+.fa-earth-americas {
+    margin-right:7px;
 }
