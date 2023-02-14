@@ -430,6 +430,28 @@ header nav {
 }
 
 
+
+.faq {
+    margin-top:30px;
+
+}
+
+.faq h5 {
+    padding:35px 0 35px 0;
+    font-size:1.1rem;
+}
+
+.faq div {
+    border-top:1px solid #c8c8c8
+}
+
+.faqthree {
+    border-bottom:1px solid #c8c8c8;
+    margin-bottom:100px;
+}
+
+
+
 /* CHANGE SVG TO WHITE */
 .logoimg img {
     filter: invert(1);
