@@ -450,6 +450,22 @@ header nav {
     margin-bottom:100px;
 }
 
+.footernav {
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+    padding-bottom:150px;
+}
+
+.footernav h3 {
+    padding-bottom:30px;
+}
+
+.footernav a {
+    padding-bottom:10px;
+    display: block;
+    color:white;
+}
 
 
 /* CHANGE SVG TO WHITE */
