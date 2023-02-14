@@ -634,3 +634,39 @@ select {
     background-color: var(--logo-ice);
     color: white;
 }
+
+/* BORDER OF THE PANELS ON HOVER  */
+
+
+
+.asu:hover {
+    border:10px solid #bf9caa;
+}
+
+.desit:hover {
+    border:10px solid #d9edd7;
+}
+
+.uf:hover {
+    border:10px solid #99d3eb;
+}
+
+.topps:hover {
+    border:10px solid #ffa4a4;
+}
+
+.wbr:hover {
+    border:10px solid #f2b2bb;
+}
+
+.heartsc:hover {
+    border:10px solid #e8f0f7;
+}
+
+.lonelyplanet:hover {
+    border:10px solid #b6bdd9;
+}
+
+.cco:hover {
+    border:10px solid #fff3c0;
+}
