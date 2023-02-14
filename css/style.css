@@ -536,3 +536,13 @@ header nav {
     align-items:baseline;
     padding:150px 0 150px 0;
 }
+
+.arrowflex {
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.arrowflex i {
+    margin-right:35px;
+}
