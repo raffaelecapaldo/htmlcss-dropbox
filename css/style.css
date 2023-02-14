@@ -18,7 +18,7 @@
 --logo-darkred: #d5001f;
 --logo-darkblue: #0D2481;
 --logo-yellow: #FFD830;
---logo-grey: #F5F5F5;
+--logo-grey: #f5f5f5;
 
 }
 
@@ -356,6 +356,8 @@ header nav {
 
 }
 
+
+
 /* CONTAINERS COLOR */
 
 .asu {
@@ -390,11 +392,41 @@ header nav {
     background-color: var(--logo-yellow);
 }
 
+.designtitinfo {
+    background-color: var(--logo-grey);
+}
+
 .logoimg {
 
    width: 50%;
-   color:white;
 }
+
+.logoimgblack {
+    width: 55%;
+}
+
+.delimiterlogo {
+    width:115px;
+    height:1px;
+    background-color:#cbcbcf;
+}
+
+.titletrial {
+    width: 47%;
+    color:var(--logo-brown);
+}
+
+.buttontrial {
+    width: 23%;
+}
+
+.buttontrial a {
+    padding:10px 35px 10px 35px;
+    background-color: white;
+    display:block;
+    text-align: center;
+}
+
 
 /* CHANGE SVG TO WHITE */
 .logoimg img {
@@ -461,4 +493,22 @@ header nav {
 
 .businesstitle {
     font-size: 3rem;
+}
+
+.wrapper 
+{
+    width: 80%;
+    margin:40px auto;
+    display:flex;
+    flex-flow: column;
+    gap:40px;
+}
+
+.wrappertrial {
+    width: 70%;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-around;
+    align-items:baseline;
+    padding:150px 0 150px 0;
 }
