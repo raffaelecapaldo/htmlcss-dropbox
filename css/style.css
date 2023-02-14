@@ -618,3 +618,18 @@ select {
 .rightnav a:not(#begin):hover {
     border-bottom: 1px solid black;
 }
+
+.footernav a:hover {
+    text-decoration: underline;
+} 
+
+.button:hover {
+    background-color: #3984ff;
+}
+
+.buttontrial:hover, .buttonpartner:hover {
+    border-color:white;
+    background-color: var(--logo-ice);
+    color:white;
+}
+
