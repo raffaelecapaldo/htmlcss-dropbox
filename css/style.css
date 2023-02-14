@@ -130,7 +130,6 @@ header nav {
     width: 100%;
     background-color: var(--primarylight);
     height:75px;
-    padding:10px;
 
 }
 
@@ -146,7 +145,6 @@ header nav {
 
 .leftnav, .rightnav {
     gap:30px;
-    padding:10px;
 }
 
 .loginsection {
@@ -586,4 +584,14 @@ select{
 
 .fa-earth-americas {
     margin-right:7px;
+}
+
+/* HOVER SELECT ON HEADER NAVBAR */
+.leftnav a, .rightnav a:not(#begin) {
+    padding:26px 0 26px 0;
+    border-bottom:1px solid white;
+}
+
+.leftnav a:hover, .rightnav a:not(#begin):hover{
+    border-bottom:1px solid black;
 }
