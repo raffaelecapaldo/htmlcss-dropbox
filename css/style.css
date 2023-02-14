@@ -394,6 +394,7 @@ header nav {
 
 .designtitinfo {
     background-color: var(--logo-grey);
+    overflow: scroll;
 }
 
 .logoimg {
@@ -425,6 +426,7 @@ header nav {
     background-color: white;
     display:block;
     text-align: center;
+    color:black;
 }
 
 
