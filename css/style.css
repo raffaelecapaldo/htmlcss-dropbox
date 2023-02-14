@@ -25,6 +25,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+main {
+    margin-top:180px;
+}
+
 footer {
     background-color: var(--primarydark);
     padding-top:100px;
@@ -150,8 +154,17 @@ header nav {
 }
 
 .leftherocontent {
-    width:60%;
+    width:33%;
 }
+
+.rightherocontent {
+    position:absolute;
+    left:37%;
+    width: 48%;
+}
+
+
+
 
 .herocontent {
     padding-top:70px;
@@ -317,6 +330,10 @@ header nav {
 
 .mbottom30 {
     margin-bottom:30px;
+}
+
+.mbottom30 a {
+    text-decoration: underline;
 }
 
 .bg-lightblue {
