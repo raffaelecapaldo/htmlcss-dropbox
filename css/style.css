@@ -15,6 +15,7 @@
 --logo-brown: #61082B;
 --logo-ice: #0093CE;
 --logo-red: #FF1C1C;
+--logo-darkred: #d5001f;
 --logo-darkblue: #0D2481;
 --logo-yellow: #FFD830;
 --logo-grey: #F5F5F5;
@@ -47,7 +48,7 @@ header a {
 img {
     width: 100%;
 }
-.deug {
+.debug {
     border: 2px solid red;
 }
 
@@ -326,6 +327,80 @@ header nav {
 .ocard {
     width: calc(100% / 3 - 40px);
 }
+
+/* TEAM PARTNER SECTION */
+.findmore {
+    color:blue;
+    text-decoration: underline;
+    padding-top:60px;
+    padding-bottom:100px;
+    display:block;
+
+}
+
+/* PANELS TEAMS SECTION */
+.panel {
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.containerlogo {
+   width: 50%;
+   height: 50%;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   
+
+}
+
+/* CONTAINERS COLOR */
+
+.asu {
+    background-color: var(--logo-brown);
+}
+
+.desit {
+    background-color: var(--logo-lightgreen);
+}
+
+.uf {
+    background-color: var(--logo-ice);
+}
+
+.topps {
+    background-color: var(--logo-red);
+}
+
+.wbr {
+    background-color: var(--logo-darkred);
+}
+
+.heartsc {
+    background-color: var(--bg-lightblue);
+}
+
+.lonelyplanet {
+    background-color: var(--logo-darkblue);
+}
+
+.cco {
+    background-color: var(--logo-yellow);
+}
+
+.logoimg {
+
+   width: 50%;
+   color:white;
+}
+
+/* CHANGE SVG TO WHITE */
+.logoimg img {
+    filter: invert(1);
+}
+
 /* UTILITY */
 
 .mbottom30 {
@@ -382,4 +457,8 @@ header nav {
 
 .bigtitle {
     font-size:2.5rem;
+}
+
+.businesstitle {
+    font-size: 3rem;
 }
