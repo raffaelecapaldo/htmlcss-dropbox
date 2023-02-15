@@ -5,7 +5,6 @@
 }
 
 :root {
-
     /* Color styles */
     --primarydark: #000000;
     --primarylight: #FFFFFF;
@@ -19,7 +18,6 @@
     --logo-darkblue: #0D2481;
     --logo-yellow: #FFD830;
     --logo-grey: #f5f5f5;
-
 }
 
 html {
@@ -29,8 +27,6 @@ html {
 body {
     font-family: 'Open Sans', sans-serif;
 }
-
-
 
 main {
     margin-top: 180px;
@@ -46,7 +42,6 @@ a {
     text-decoration: none;
 }
 
-
 li {
     list-style: none;
 }
@@ -58,7 +53,6 @@ header a {
 img {
     width: 100%;
 }
-
 
 /* RADIO BUTTONS */
 .radiocontainer {
@@ -121,7 +115,6 @@ img {
 }
 
 /* CONTAINERS */
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -131,11 +124,9 @@ img {
 .small-container {
     max-width: 1000px;
     margin: 0 auto;
-
 }
 
 /* HEADER */
-
 header nav {
     position: fixed;
     z-index: 1000;
@@ -145,7 +136,6 @@ header nav {
     background-color: var(--primarylight);
     height: 75px;
     overflow: hidden;
-
 }
 
 .hero {
@@ -164,8 +154,6 @@ header nav {
     margin: 0 10px 0 10px;
 }
 
-
-
 .loginsection {
     gap: 10px;
     margin-left: 20px;
@@ -180,8 +168,6 @@ header nav {
     left: 37%;
     width: 48%;
 }
-
-
 
 
 .herocontent {
@@ -217,13 +203,11 @@ header nav {
 .bordercard {
     border: 1px solid #d0d0d3;
     margin-bottom: 50px;
-
 }
 
 .card {
     width: calc(100% / 3 - 40px);
     margin-right: 40px;
-
 }
 
 .card li {
@@ -302,7 +286,6 @@ header nav {
     gap: 10px;
 }
 
-
 /* MAIN ENTERPRISE CARD */
 .contactenterprise {
     width: 30%;
@@ -357,7 +340,6 @@ header nav {
     margin-top: 60px;
     margin-bottom: 100px;
     display: block;
-
 }
 
 /* PANELS TEAMS SECTION */
@@ -375,13 +357,9 @@ header nav {
     justify-content: center;
     align-items: center;
 
-
 }
 
-
-
 /* CONTAINERS COLOR */
-
 .asu {
     background-color: var(--logo-brown);
 }
@@ -416,11 +394,10 @@ header nav {
 
 .designtitinfo {
     background-color: var(--logo-grey);
-    overflow-y:auto;
+    overflow-y: auto;
 }
 
 .logoimg {
-
     width: 50%;
 }
 
@@ -440,8 +417,9 @@ header nav {
 }
 
 .buttontrial {
-    padding:13px;
+    padding: 13px;
     background-color: var(--primarylight);
+    transition: 0.1s;
 }
 
 .buttontrial a {
@@ -452,17 +430,14 @@ header nav {
     color: var(--primarydark);
 }
 
-
-
 .faq {
     margin-top: 30px;
-
 }
 
 .faq h5 {
     padding: 35px 0 35px 0;
     font-size: 1.1rem;
-    display:inline-block;
+    display: inline-block;
 }
 
 .faq div {
@@ -477,62 +452,63 @@ header nav {
 /* ANSWERS DIV ON DISPLAY NONE */
 .answers {
     width: 74%;
-    margin:8px 0 12px 0px;
-    display:none;
+    margin: 8px 0 12px 0px;
+    display: none;
 }
 
 /* WHEN HOVER DISPLAY BLOCK */
 .faqone:hover .answers#fanswer {
-display:block;
+    display: block;
 }
 
 .faqtwo:hover .answers#sanswer {
-display:block;
+    display: block;
 }
 
 .faqthree:hover .answers#tanswer {
-    display:block;
+    display: block;
 }
 
 /* DEFAULT ARROW POINTS TO THE RIGHT */
 .faq h5::after {
     font-weight: 900;
-    font-size:1rem;
+    font-size: 1rem;
     font-family: "Font Awesome 6 Free";
-    content:"\f105";
-    margin-left:225px;
-    display:inline-block;
+    content: "\f105";
+    margin-left: 225px;
+    display: inline-block;
 }
+
 /* WHEN ON HOVER ARROW POINTS DOWN */
 .faqone:hover h5::after {
     font-weight: 900;
-    font-size:1rem;
+    font-size: 1rem;
     font-family: "Font Awesome 6 Free";
-    content:"\f107";
-    margin-left:225px;
-    display:inline-block;
+    content: "\f107";
+    margin-left: 225px;
+    display: inline-block;
 }
 
 .faqtwo:hover h5::after {
     font-weight: 900;
-    font-size:1rem;
+    font-size: 1rem;
     font-family: "Font Awesome 6 Free";
-    content:"\f107";
-    margin-left:225px;
-    display:inline-block;
+    content: "\f107";
+    margin-left: 225px;
+    display: inline-block;
 }
 
 .faqthree:hover h5::after {
     font-weight: 900;
-    font-size:1rem;
+    font-size: 1rem;
     font-family: "Font Awesome 6 Free";
-    content:"\f107";
-    margin-left:225px;
-    display:inline-block;
+    content: "\f107";
+    margin-left: 225px;
+    display: inline-block;
 }
 
 .containeranswers {
-    display:flex;
+    display: flex;
 }
 
 .footernav {
@@ -557,15 +533,12 @@ display:block;
 }
 
 
-
-
 /* CHANGE SVG TO var(--primarylight) */
 .logoimg img {
     filter: invert(1);
 }
 
 /* UTILITY */
-
 .mbottom30 {
     margin-bottom: 30px;
 }
@@ -585,7 +558,6 @@ display:block;
 .dflex {
     display: flex;
     flex-flow: wrap;
-
 }
 
 .spbw {
@@ -600,7 +572,6 @@ display:block;
     flex-wrap: nowrap;
 }
 
-
 .button {
     background-color: var(--bt-blue);
     padding: 5px 15px 5px 15px;
@@ -613,7 +584,6 @@ display:block;
     background-color: #d0d0d3;
     height: 1px;
 }
-
 
 .gap20 {
     gap: 20px;
@@ -643,7 +613,6 @@ display:block;
     align-items: baseline;
     padding: 150px 0 150px 0;
 }
-
 
 .mtb100 {
     margin: 100px 0 100px 0;
@@ -695,41 +664,31 @@ select {
 
 /* BORDER OF THE PANELS ON HOVER  */
 
-
-
 /*  .asu:hover {
     border:10px solid #bf9caa;
 }
-
 .desit:hover {
     border:10px solid #d9edd7;
 }
-
 .uf:hover {
     border:10px solid #99d3eb;
 }
-
 .topps:hover {
     border:10px solid #ffa4a4;
 }
-
 .wbr:hover {
     border:10px solid #f2b2bb;
 }
-
 .heartsc:hover {
     border:10px solid #e8f0f7;
 }
-
 .lonelyplanet:hover {
     border:10px solid #b6bdd9;
 }
-
 .cco:hover {
     border:10px solid #fff3c0;
 } */
-
 /* NEW IDEA (SHADOW WITH GREY TRANSPARENCY), THANKS TO: GIUSEPPE INDOMENICO */
-:is(.asu, .desit, .uf, .topps, .wbr, .wbr, .heartsc, .lonelyplanet, .cco):hover{
-    box-shadow: inset 0 0 0 15px  #ffffff74;
+:is(.asu, .desit, .uf, .topps, .wbr, .wbr, .heartsc, .lonelyplanet, .cco):hover {
+    box-shadow: inset 0 0 0 15px #ffffff74;
 }
