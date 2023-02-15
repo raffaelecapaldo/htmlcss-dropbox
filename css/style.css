@@ -640,7 +640,8 @@ select {
     border-bottom: 1px solid var(--primarylight);
 }
 
-.leftnav a:hover:not(.internav) .rightnav a:not(#begin) {
+.leftnav a:hover:not(.internav),
+.rightnav a:hover:not(#begin):not(.internav) {
     border-bottom: 1px solid var(--primarydark);
 }
 
