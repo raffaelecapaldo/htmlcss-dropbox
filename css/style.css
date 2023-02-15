@@ -637,7 +637,7 @@ select {
 }
 
 /* HOVER SELECT ON HEADER NAVBAR */
-.leftnav a,
+.leftnav a:not(.internav),
 .rightnav a:not(#begin):not(.internav) {
     padding: 26px 0 26px 0;
     border-bottom: 1px solid var(--primarylight);
@@ -693,7 +693,8 @@ select {
 :is(.asu, .desit, .uf, .topps, .wbr, .wbr, .heartsc, .lonelyplanet, .cco):hover {
     box-shadow: inset 0 0 0 15px #ffffff74;
 }
-/* DROPDOWN ON HELP NAV */
+
+/* DROPDOWN ON NAV */
 .help {
     position: absolute;
     top: 75px;
@@ -719,5 +720,86 @@ select {
 }
 
 .help:hover {
+    display: block;
+}
+
+.functions {
+    position: absolute;
+    top: 75px;
+    left: 298px;
+    text-align: center;
+    background-color: #e7e0d7;
+    padding: 0 20px 0 20px;
+    display: none;
+}
+
+.functions li {
+    padding: 3px 0px 5px 0;
+}
+
+.functions a {
+    color: rgba(24, 20, 20, 0.795);
+    font-size: 0.8rem;
+}
+
+#functionsnav:hover+.functions {
+    display: block;
+}
+
+.functions:hover {
+    display: block;
+}
+
+.plansprice {
+    position: absolute;
+    top: 75px;
+    left: 393px;
+    text-align: center;
+    background-color: #e7e0d7;
+    padding: 0 20px 0 20px;
+    display: none;
+}
+
+.plansprice li {
+    padding: 3px 0px 5px 0;
+}
+
+.plansprice a {
+    color: rgba(24, 20, 20, 0.795);
+    font-size: 0.8rem;
+}
+
+#plansnav:hover+.plansprice {
+    display: block;
+}
+
+.plansprice:hover {
+    display: block;
+}
+
+.whydrop {
+    position: absolute;
+    top: 75px;
+    left: 110px;
+    text-align: center;
+    background-color: #e7e0d7;
+    padding: 0 20px 0 20px;
+    display: none;
+}
+
+.whydrop li {
+    padding: 3px 0px 5px 0;
+}
+
+.whydrop a {
+    color: rgba(24, 20, 20, 0.795);
+    font-size: 0.8rem;
+}
+
+#whynav:hover+.whydrop {
+    display: block;
+}
+
+.whydrop:hover {
     display: block;
 }
