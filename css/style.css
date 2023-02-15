@@ -804,3 +804,9 @@ select {
     display: block;
 }
 
+/* WHEN HIDDEN DROPDOWN DOESN'T SHOW */
+@media (max-width:1016px) {
+    header nav {
+        overflow:hidden;
+    }
+}
