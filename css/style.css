@@ -39,7 +39,7 @@ main {
 footer {
     background-color: var(--primarydark);
     padding-top: 100px;
-    color: white;
+    color: var(--primarylight);
 }
 
 a {
@@ -334,10 +334,10 @@ header nav {
 }
 
 .buttonpartner {
-    border: 1px solid black;
+    border: 1px solid var(--primarydark);
     padding: 10px;
     width: 150px;
-    color: black;
+    color: var(--primarydark);
     transition: 0.1s;
 }
 
@@ -440,15 +440,16 @@ header nav {
 }
 
 .buttontrial {
-    width: 23%;
+    padding:13px;
+    background-color: var(--primarylight);
 }
 
 .buttontrial a {
     padding: 10px 35px 10px 35px;
-    background-color: white;
+    background-color: var(--primarylight);
     display: block;
     text-align: center;
-    color: black;
+    color: var(--primarydark);
 }
 
 
@@ -547,7 +548,7 @@ display:block;
 .footernav a {
     padding-bottom: 10px;
     display: block;
-    color: white;
+    color: var(--primarylight);
 }
 
 .languageselect {
@@ -558,7 +559,7 @@ display:block;
 
 
 
-/* CHANGE SVG TO WHITE */
+/* CHANGE SVG TO var(--primarylight) */
 .logoimg img {
     filter: invert(1);
 }
@@ -649,7 +650,7 @@ display:block;
 }
 
 option {
-    background-color: black;
+    background-color: var(--primarydark);
     border: none;
     color: #979ea0;
     appearance: none;
@@ -657,7 +658,7 @@ option {
 
 select {
     appearance: none;
-    background-color: black;
+    background-color: var(--primarydark);
     color: #979ea0;
 }
 
@@ -669,12 +670,12 @@ select {
 .leftnav a,
 .rightnav a:not(#begin) {
     padding: 26px 0 26px 0;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid var(--primarylight);
 }
 
 .leftnav a:hover,
 .rightnav a:not(#begin):hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--primarydark);
 }
 
 .footernav a:hover {
@@ -687,9 +688,9 @@ select {
 
 .buttontrial:hover,
 .buttonpartner:hover {
-    border-color: white;
+    border-color: var(--primarylight);
     background-color: var(--logo-ice);
-    color: white;
+    color: var(--primarylight);
 }
 
 /* BORDER OF THE PANELS ON HOVER  */
