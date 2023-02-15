@@ -696,7 +696,7 @@ select {
 
 
 
-.asu:hover {
+/*  .asu:hover {
     border:10px solid #bf9caa;
 }
 
@@ -726,4 +726,9 @@ select {
 
 .cco:hover {
     border:10px solid #fff3c0;
+} */
+
+/* NEW IDEA (SHADOW WITH GREY TRANSPARENCY), THANKS TO: GIUSEPPE INDOMENICO */
+:is(.asu, .desit, .uf, .topps, .wbr, .wbr, .heartsc, .lonelyplanet, .cco):hover{
+    box-shadow: inset 0 0 0 15px  #ffffff74;
 }
