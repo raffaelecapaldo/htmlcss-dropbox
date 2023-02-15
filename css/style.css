@@ -169,7 +169,6 @@ header nav {
     width: 48%;
 }
 
-
 .herocontent {
     padding-top: 70px;
 }
@@ -356,7 +355,6 @@ header nav {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 /* CONTAINERS COLOR */
@@ -533,7 +531,6 @@ header nav {
     font-size: 1.2rem;
 }
 
-
 /* CHANGE SVG TO var(--primarylight) */
 .logoimg img {
     filter: invert(1);
@@ -643,8 +640,7 @@ select {
     border-bottom: 1px solid var(--primarylight);
 }
 
-.leftnav a:hover,
-.rightnav a:not(#begin):hover {
+.leftnav a:hover:not(.internav) .rightnav a:not(#begin) {
     border-bottom: 1px solid var(--primarydark);
 }
 
@@ -664,7 +660,6 @@ select {
 }
 
 /* BORDER OF THE PANELS ON HOVER  */
-
 /*  .asu:hover {
     border:10px solid #bf9caa;
 }
@@ -695,118 +690,83 @@ select {
 }
 
 /* DROPDOWN ON NAV */
-.help {
+.help,
+.functions,
+.plansprice,
+.whydrop {
     position: absolute;
+    text-align: center;
+    background-color: #f2eee8;
+    display: none;
+}
+
+.help {
     top: 75px;
     right: 379px;
-    text-align: center;
-    background-color: #e7e0d7;
-    padding: 0 20px 0 20px;
-    display: none;
-
-}
-
-.help li {
-    padding: 3px 0px 5px 0;
-}
-
-.help a {
-    color: rgba(24, 20, 20, 0.795);
-    font-size: 0.8rem;
-}
-
-#helpnav:hover+.help {
-    display: block;
-}
-
-.help:hover {
-    display: block;
 }
 
 .functions {
-    position: absolute;
     top: 75px;
     left: 298px;
-    text-align: center;
-    background-color: #e7e0d7;
-    padding: 0 20px 0 20px;
-    display: none;
-}
-
-.functions li {
-    padding: 3px 0px 5px 0;
-}
-
-.functions a {
-    color: rgba(24, 20, 20, 0.795);
-    font-size: 0.8rem;
-}
-
-#functionsnav:hover+.functions {
-    display: block;
-}
-
-.functions:hover {
-    display: block;
 }
 
 .plansprice {
-    position: absolute;
     top: 75px;
     left: 393px;
-    text-align: center;
-    background-color: #e7e0d7;
-    padding: 0 20px 0 20px;
-    display: none;
-}
-
-.plansprice li {
-    padding: 3px 0px 5px 0;
-}
-
-.plansprice a {
-    color: rgba(24, 20, 20, 0.795);
-    font-size: 0.8rem;
-}
-
-#plansnav:hover+.plansprice {
-    display: block;
-}
-
-.plansprice:hover {
-    display: block;
 }
 
 .whydrop {
-    position: absolute;
     top: 75px;
     left: 110px;
-    text-align: center;
-    background-color: #e7e0d7;
-    padding: 0 20px 0 20px;
-    display: none;
 }
 
-.whydrop li {
-    padding: 3px 0px 5px 0;
-}
-
-.whydrop a {
-    color: rgba(24, 20, 20, 0.795);
-    font-size: 0.8rem;
-}
-
+#helpnav:hover+.help,
+#functionsnav:hover+.functions,
+#plansnav:hover+.plansprice,
 #whynav:hover+.whydrop {
     display: block;
 }
 
-.whydrop:hover {
+
+
+
+
+
+.help:hover,
+.plansprice:hover,
+.whydrop:hover,
+.functions:hover {
     display: block;
+}
+
+.help li,
+.functions li,
+.whydrop li,
+.plansprice li {
+    padding: 5px 40px 5px 40px;
+}
+
+.help a,
+.functions a,
+.whydrop a,
+.plansprice a {
+    color: rgba(24, 20, 20, 0.795);
+    font-size: 0.8rem;
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+.help li:hover,
+.functions li:hover,
+.whydrop li:hover,
+.plansprice li:hover {
+    background-color: #e7e0d7;
+    text-decoration: none;
 }
 
 /* WHEN HIDDEN DROPDOWN DOESN'T SHOW */
 @media (max-width:1016px) {
     header nav {
-        overflow:hidden;
+        overflow: hidden;
     }
 }
