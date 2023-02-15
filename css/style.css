@@ -415,7 +415,7 @@ header nav {
 
 .designtitinfo {
     background-color: var(--logo-grey);
-    overflow: scroll;
+    overflow-y:auto;
 }
 
 .logoimg {
@@ -460,6 +460,7 @@ header nav {
 .faq h5 {
     padding: 35px 0 35px 0;
     font-size: 1.1rem;
+    display:inline-block;
 }
 
 .faq div {
@@ -469,6 +470,67 @@ header nav {
 .faqthree {
     border-bottom: 1px solid #c8c8c8;
     margin-bottom: 100px;
+}
+
+/* ANSWERS DIV ON DISPLAY NONE */
+.answers {
+    width: 74%;
+    margin:8px 0 12px 0px;
+    display:none;
+}
+
+/* WHEN HOVER DISPLAY BLOCK */
+.faqone:hover .answers#fanswer {
+display:block;
+}
+
+.faqtwo:hover .answers#sanswer {
+display:block;
+}
+
+.faqthree:hover .answers#tanswer {
+    display:block;
+}
+
+/* DEFAULT ARROW POINTS TO THE RIGHT */
+.faq h5::after {
+    font-weight: 900;
+    font-size:1rem;
+    font-family: "Font Awesome 6 Free";
+    content:"\f105";
+    margin-left:225px;
+    display:inline-block;
+}
+/* WHEN ON HOVER ARROW POINTS DOWN */
+.faqone:hover h5::after {
+    font-weight: 900;
+    font-size:1rem;
+    font-family: "Font Awesome 6 Free";
+    content:"\f107";
+    margin-left:225px;
+    display:inline-block;
+}
+
+.faqtwo:hover h5::after {
+    font-weight: 900;
+    font-size:1rem;
+    font-family: "Font Awesome 6 Free";
+    content:"\f107";
+    margin-left:225px;
+    display:inline-block;
+}
+
+.faqthree:hover h5::after {
+    font-weight: 900;
+    font-size:1rem;
+    font-family: "Font Awesome 6 Free";
+    content:"\f107";
+    margin-left:225px;
+    display:inline-block;
+}
+
+.containeranswers {
+    display:flex;
 }
 
 .footernav {
@@ -491,6 +553,8 @@ header nav {
     color: #979ea0;
     font-size: 1.2rem;
 }
+
+
 
 
 /* CHANGE SVG TO WHITE */
@@ -577,15 +641,6 @@ header nav {
     padding: 150px 0 150px 0;
 }
 
-.arrowflex {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-}
-
-.arrowflex i {
-    margin-right: 35px;
-}
 
 .mtb100 {
     margin: 100px 0 100px 0;
