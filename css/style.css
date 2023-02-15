@@ -702,22 +702,22 @@ select {
 
 .help {
     top: 75px;
-    right: 379px;
+    right: 357px;
 }
 
 .functions {
     top: 75px;
-    left: 298px;
+    left: 303px;
 }
 
 .plansprice {
     top: 75px;
-    left: 393px;
+    left: 401px;
 }
 
 .whydrop {
     top: 75px;
-    left: 110px;
+    left: 141px;
 }
 
 #helpnav:hover+.help,
@@ -726,10 +726,6 @@ select {
 #whynav:hover+.whydrop {
     display: block;
 }
-
-
-
-
 
 
 .help:hover,
