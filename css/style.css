@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition:0.300s;
 }
 
 :root {
@@ -320,7 +321,7 @@ header nav {
     padding: 10px;
     width: 150px;
     color: var(--primarydark);
-    transition: 0.1s;
+
 }
 
 /* MAIN OPERATIONS CARDS */
@@ -417,7 +418,6 @@ header nav {
 .buttontrial {
     padding: 13px;
     background-color: var(--primarylight);
-    transition: 0.1s;
     color: var(--primarydark);
 }
 
@@ -574,7 +574,7 @@ header nav {
     background-color: var(--bt-blue);
     padding: 5px 15px 5px 15px;
     color: var(--primarylight);
-    transition: 0.1s;
+
 }
 
 .linedivider {
@@ -750,7 +750,6 @@ select {
     color: rgba(24, 20, 20, 0.795);
     font-size: 0.8rem;
     text-decoration: none;
-    transition: 0.1s;
 }
 
 .help li:hover,
